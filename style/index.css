@@ -1,1 +1,223 @@
-/* Add CSS styling here */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html {
+  font-size: 10px;
+}
+header {
+  background-color: mediumseagreen;
+  background-size: 100%;
+}
+
+h1 {
+  font-family: Courgette;
+  font-size: 4rem;
+  text-align: left;
+  background: mediumseagreen;
+}
+
+li {
+  margin: 10px;
+  border: 1px solid lightgray;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #f87b99;
+  width: 80%;
+  text-align: center;
+  cursor: pointer;
+}
+
+p {
+  margin-right: 100px;
+  font-family: Merriweather;
+  font-size: 1.6rem;
+  text-align: right;
+  text-indent: auto;
+}
+
+.Aboutme {
+  display: inline-block;
+  text-align: right;
+}
+
+.name-button {
+  text-align: right;
+  font-size: 2rem;
+  padding: 30px;
+  padding-right: 100px;
+  cursor: pointer;
+}
+
+.name-button button {
+  background-color: seagreen;
+}
+
+.name-button a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  float: left;
+  padding-left: 10px;
+}
+
+footer {
+  font-size: 1.6rem;
+  text-align: center;
+  background-color: mediumseagreen;
+  background-size: auto;
+  text-decoration: none;
+}
+
+.Like h4 {
+  padding: 40px 0px 0px 0px;
+  font-size: 3rem;
+}
+
+.Like button {
+  margin: 5px;
+  background-color: sandybrown;
+  cursor: pointer;
+}
+
+.Like a {
+  text-decoration: none;
+  color: black;
+}
+
+.navlinks ul {
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  list-style: none;
+}
+
+.navlinks li {
+  margin: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 10%;
+  cursor: pointer;
+  font-size: 1.2rem;
+  background-color: #f87b99;
+}
+
+.navlinks a {
+  text-decoration: none;
+  color: white;
+}
+
+.icons i {
+  width: 70px;
+  font-size: 5rem;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.image_container {
+  display: block;
+  margin-top: 20px;
+}
+
+.top_row,
+.bottom_row {
+  display: flex;
+}
+
+.bottom_row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
